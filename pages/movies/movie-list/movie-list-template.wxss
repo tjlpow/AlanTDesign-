@@ -12,23 +12,23 @@
 
 .movie-head {
   padding: 30rpx 20rpx 22rpx;
-  /*display:flex;
-  flex-direction: row;
-  justify-content:space-between;*/
+
 }
 
 .slogan {
-  font-size: 24rpx;
+  /* font-size: 30rpx; */
+  font-weight: 500;
 }
 
 .more {
-  float: right;
+  float: right; 
 }
 
 .more-text {
   vertical-align: middle;
-  margin-right: 10rpx;
+  margin-right: 10rpx; 
   color: #1f4ba5;
+  text-align: center;
 }
 
 .more-img {
