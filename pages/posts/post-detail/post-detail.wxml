@@ -1,0 +1,25 @@
+<!--先静后动，先样式再数据-->
+<import src="../../../wxParse/wxParse.wxml"/>
+
+<view class="container">
+  <image class="head-image" src="{{postData.headImageSrc}}"></image>
+  <!-- <image class="audio" catchtap="onMusicTap" src="{{isMusicPlay?'../../../images/music/music-stop.png':'../../../images/music/music-start.png'}}"></image> -->
+  
+  <text class="title">{{postData.title}}</text>
+  <view class="author-date">
+    <image class="avatar" src="{{postData.avatar}}"></image>
+    <text class="author">{{postData.author}}</text>
+    <!-- <text class="const-text">发表于</text> -->
+    <text class="date">{{postData.date}}</text>
+    <view class="circle-img">
+      <image wx:if="{{collectState}}" catchtap="onCollectTap" src="/images/icon/collection.png"></image>
+      <image wx:else catchtap="onCollectTap" src="/images/icon/collection-anti.png"></image>
+      <!-- <image class="share-img" src="/images/icon/share.png"></image> -->
+    </view>
+  </view>
+
+  <view class="wxParse">
+    <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+  </view>
+  <!-- <text class="detail">{{postData.detail}}</text> -->
+</view>

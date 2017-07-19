@@ -1,0 +1,23 @@
+<template name="postItem">
+    <view class="post-container">
+      <image class="post-image" src="{{item.imgSrc}}"></image>
+                <text class="post-title">{{item.title}}</text>
+                <text class="post-content">这里是两行文字，有则显示没有则截断。这里是两行文字，有则显示没有则截断</text>
+                <view class="post-author-date">
+                    <image class="post-author" src="{{item.avatar}}"></image>
+                    <text class="post-author-name">{{item.author}}</text>
+                    <text class="post-date">{{item.date}}</text>
+                </view>
+                
+                
+                <!-- <view class="post-like">
+                    <image class="post-like-image" src="/images/icon/view.png"></image>
+                    <text class="post-like-font">92</text>
+                    <image class="post-like-image" src="/images/icon/chat1.png"></image>
+                    <text class="post-like-font">62</text> 
+                </view> -->
+                
+            
+               
+      </view>
+</template>

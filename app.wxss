@@ -1,0 +1,5 @@
+@import "/wxParse/wxParse.wxss";
+
+text{
+font-size:28rpx;
+}
