@@ -18,17 +18,18 @@
       {
         "pagePath": "pages/posts/posts",
         "text": "",
-        "iconPath": "images/tab/yuedu.png",
-        "selectedIconPath": "images/tab/yuedu_hl.png"
+        "iconPath": "images/tab/article.png",
+        "selectedIconPath": "images/tab/article_hl.png"
       },
       {
         "pagePath": "pages/movies/movies",
         "text": "",
-        "iconPath": "images/tab/dianying.png",
-        "selectedIconPath": "images/tab/dianying_hl.png"
+        "iconPath": "images/tab/movie.png",
+        "selectedIconPath": "images/tab/movie_hl.png"
       }
     ],
-    "borderStyle": "white"
+    "borderStyle": "white",
+    "backgroundColor": "#fff"
     
   }
 }

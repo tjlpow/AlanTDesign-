@@ -2,13 +2,16 @@
 <view class="container">
   <swiper catchtap="onSwiperTap" class="swiper" indicator-dots="true" autoplay="">
     <swiper-item class="swiper-item">
-      <image class="item-image" src="../../images/post/test.png" data-postId="2" mode="aspectFill"></image>
+      <image class="item-image" src="../../images/post/t1.jpg" data-postId="4" mode="aspectFill"></image>
     </swiper-item>
     <swiper-item class="swiper-item">
-      <image class="item-image" src="../../images/post/xiaolong.jpg" data-postId="2" mode="aspectFill"></image>
+      <image class="item-image" src="../../images/post/t2.jpg" data-postId="4" mode="aspectFill"></image>
     </swiper-item>
     <swiper-item class="swiper-item">
-      <image class="item-image" src="../../images/post/xiaolong.jpg" data-postId="2" mode="aspectFill"></image>
+      <image class="item-image" src="../../images/post/t3.png" data-postId="4" mode="aspectFill"></image>
+    </swiper-item>
+    <swiper-item class="swiper-item">
+      <image class="item-image" src="../../images/post/t4.png" data-postId="4" mode="aspectFill"></image>
     </swiper-item>
   </swiper>
   <block wx:for="{{postsList}}">

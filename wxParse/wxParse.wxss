@@ -14,9 +14,9 @@
     margin: 0 50rpx;
     /* background-color: wheat;  */
     font-family: Helvetica,sans-serif;
-    font-size: 28rpx;
+    font-size: 32rpx;
     color: #333;
-    line-height: 1.8;
+    line-height: 2;
 }
 view{
     word-break:break-all; overflow:auto;

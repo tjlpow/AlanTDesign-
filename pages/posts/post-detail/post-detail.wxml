@@ -2,7 +2,7 @@
 <import src="../../../wxParse/wxParse.wxml"/>
 
 <view class="container">
-  <image class="head-image" src="{{postData.headImageSrc}}"></image>
+  <image class="head-image" src="{{postData.headImageSrc}}" mode="aspectFill"></image>
   <!-- <image class="audio" catchtap="onMusicTap" src="{{isMusicPlay?'../../../images/music/music-stop.png':'../../../images/music/music-start.png'}}"></image> -->
   
   <text class="title">{{postData.title}}</text>
